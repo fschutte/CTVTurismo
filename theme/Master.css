@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+	font-family: Arial, sans-serif;
+	margin : 0px; 
+	padding: 0px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize
+}
+
+h2 {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize
+}
+
+h3 {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize
+}
+
+h4 {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize
+}
+
+h5 {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize
+}
+
+h6 {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize
+}
+
+th {
+	color: #FFFFFF
+}

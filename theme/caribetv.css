@@ -1,0 +1,215 @@
+#homebody {
+	
+}
+
+#main-area {
+	width: 100%;
+	position: relative;
+	font-size: 10pt;
+	font-family: Arial, sans-serif;
+	vertical-align: middle;
+	border-style: groove;
+	border-width: 0;
+	border-color: #990000;
+	margin: 1px;
+	padding: 0px;
+}
+
+#header-area {
+	background-position: center center;
+	background-image: url(../images/logo1.gif);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 70px;
+	border-style: solid;
+	border-width: 0;
+	border-color: yellow;
+}
+
+/* navigatie */
+#navigation-area {
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 0;
+	border-color: cyan;
+	position: absolute;
+	height: 31px;
+	width: 717px;
+	top: 69px;
+	z-index: 1;
+	left: 40px;
+}
+* html #navigation-area {
+	top: 68px;
+}
+#band {
+	background-color: #A31917;
+	position: absolute;
+	height: 22px;
+	width: 793px;
+	top: 72px;
+	left: -4px;
+}
+	
+#navigation-area ul {
+	margin: 0px;
+	background-color: transparent; /*#990000;*/
+	float: left;
+	width: 100%;
+	min-width:560px;
+	z-index:1;
+	padding-bottom: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 0px;;
+}
+
+#navigation-area ul li {
+	display: inline;
+}
+
+#navigation-area ul li a {
+	padding: 0.2em 1em;
+	color: #f28528;   /*#ac3636;*/
+	height: 17px;
+	font-size: 9pt;
+	font-weight: bold;
+	background-color: transparent;
+	border-style: solid solid solid solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #eeeeee #333333 #333333 #eeeeee;
+	text-decoration: none;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	z-index: 5;
+}
+
+#navigation-area ul li a:link {
+	color: #f28528;
+	font-size: 9pt;
+}
+
+#navigation-area ul li a:visited {
+	color: #f28528;
+	font-size: 9pt;
+}
+
+#navigation-area ul li a:hover {
+	color: red;
+	font-size: 9pt;
+}
+
+#flags-area {
+	position: absolute;
+	top: 99px;
+	left: 2px;
+	height: 272px;
+	width: 414px;
+}
+
+#flags-area .imgflag,.imgflag-off {
+	height: 20px;
+	margin-right: 3px;
+	margin-left: 3px;
+	border: 0;
+}
+#flags-area .imgflag {
+	cursor: pointer
+}
+
+#content-area {
+	color: #e4e4e4;
+	margin: 0px;
+	padding: 0px;;
+	border-style: solid;
+	border-width: 0;
+	border-color: yellow;
+	position: relative;
+	top: 55px;
+	width: 100%;
+	min-width: 800px;
+}
+
+
+#infoframe-holder {
+	position:relative;
+	top:0px;
+	width:auto;
+	height:401px;
+	min-width:120px;
+	margin-left:0px;
+	margin-right:460px;
+	padding:0;
+}
+#infoframe {
+	height: 400px;
+	width: 100%; /*450px;*/
+	border-style: groove;
+	border-width: 3px;
+	border-color: #ba3b14;
+	background-color: yellow;
+}
+/* this will be parsed only by IE */
+* html #infoframe-holder {
+	/* adjust right margin a bit */
+	margin-right:440px;
+}
+
+/* hack for IE only so that min-width works */
+
+* html #xxmediaplayerframe-holder {
+	border-left:400px solid black;
+	position:absolute;
+	top: 0px;
+}
+* html #xxmediaplayerframe {
+	position:absolute;
+	margin-left:-400px;
+	top: 0px;
+	left: 0px;
+}
+
+* html #xxxmediaplayerframe {
+	display:inline-block;
+	position: relative;
+	margin-left:-100px;
+}
+#mediaplayerframe {
+	position:absolute;
+	top:0px;
+	right:20px;
+	width:385px;
+	height:400px;
+	padding-right:0px;
+	padding-left:0px;
+	border-width:3px;
+	border-style: groove;
+	border-color: #ba3b14;
+	left: 375px;
+	}
+
+#xxmediaplayerframe {
+	z-index: 2;
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin-right: 5px;
+	border-style: groove;
+	border-width: medium;
+	border-color: #ba3b14;
+	min-width: 400px;
+}
+
+#mediaplayer {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	z-index: 100;
+	text-align: center;
+	background-color: black;
+}
